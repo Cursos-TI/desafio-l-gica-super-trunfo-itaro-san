@@ -2,28 +2,28 @@
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
+// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
-int main() {
+int main()
+{
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
-    
-    //vAriaveis para a Carta 1
+
+    // vAriaveis para a Carta 1
     char Estado1[50], Codigo1[50], Cidade1[50];
     unsigned long int Populacao1;
     int Pontos1;
     float Area1, PIB1, PIBper1, Densidade1;
     float SUPERPODER1;
 
-     // Variaveis para a Carta 2
+    // Variaveis para a Carta 2
     char Estado2[50], Codigo2[50], Cidade2[50];
     unsigned long int Populacao2;
     int Pontos2;
     float Area2, PIB2, PIBper2, Densidade2;
     float SUPERPODER2;
 
-    
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
     // utilizando a função scanf para capturar as entradas.
@@ -32,10 +32,10 @@ int main() {
     // Exemplo:
     // printf("Digite o código da cidade: ");
     // scanf("%s", codigo);
-    // 
+    //
     // (Repita para cada propriedade)
 
-   // Área para exibição do título do desafio
+    // Área para exibição do título do desafio
 
     printf("DESAFIO SUPER TRUNFO - PAÍSES\n");
     printf("TEMA 1 - CADASTRO DAS CARTAS\n");
@@ -98,8 +98,7 @@ int main() {
     Densidade2 = (float)Populacao2 / Area2;
     PIBper2 = (float)PIB2 * 1000000000 / Populacao2;
 
-    
-       // Área para exibição dos dados da cidade
+    // Área para exibição dos dados da cidade
 
     printf("\n===== DADOS DAS CARTAS CADASTRADAS COM SUCESSO =====\n");
 
@@ -137,7 +136,7 @@ int main() {
     // } else {
     //     printf("Cidade 2 tem maior população.\n");
     // }
-     // Área de comparação das cartas e exibição do resultado do desafio
+    // Área de comparação das cartas e exibição do resultado do desafio
     printf("\n===== RESULTADO DO DESAFIO SUPER TRUNFO - PAÍSES =====\n");
     printf("Comparando as cartas cadastradas...\n");
     printf("===== SUPER BATALHA DE CARTAS =====\n");
@@ -247,11 +246,11 @@ int main() {
 
     if (SUPERPODER1 > SUPERPODER2)
     {
-        printf("A Carta 1 é a vencedora com maior Super Poder !\n", SUPERPODER1);
+        printf("A Carta 1 é a vencedora com maior Super Poder!");
     }
     else if (SUPERPODER2 > SUPERPODER1)
     {
-        printf("A Carta 2 é a vencedora com maior Super Poder!\n", SUPERPODER2);
+        printf("A Carta 2 é a vencedora com maior Super Poder!");
     }
     else
     {
